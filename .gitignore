@@ -1,0 +1,53 @@
+# Ignore bundler config.
+/.bundle
+.vscode
+.idea
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+
+config/database.yml
+config/encryption.yml
+config/s3.yml
+config/duo_web.yml
+config/truemail.yml
+config/dump_test_config.json
+
+private
+public/uploads
+public/fund
+public/assets/entry
+public/entry
+
+db/sphinx/
+
+*.swp
+
+.DS_Store
+.byebug_history
+doc
+dump.rdb
+
+# React
+node_modules/
+yarn-error.log
+
+# docker files
+.env
+.env.docker_development
+.docker-sync
+/public/packs
+/public/entry
+/node_modules
+logfile
+
+db/schema.rb
+db/structure.sql
+
+coverage
